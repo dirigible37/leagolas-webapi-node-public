@@ -1,0 +1,9 @@
+export const GET_SUMMONER_BY_NAME_ENDPOINT = 'summoner/v4/summoners/by-name';
+export const GET_SUMMONER_BY_PUUID_ENDPOINT = 'summoner/v4/summoners/by-puuid';
+export const GET_SUMMONER_BY_ID_ENDPOINT = 'summoner/v4/summoners';
+export const GET_MATCH_BY_PUUID_ENDPOINT = 'match/v5/matches/by-puuid';
+export const GET_CLASH_DATA_BY_SUMMONER_ID_ENDPOINT = 'clash/v1/players/by-summoner';
+export const GET_CLASH_TEAM_BY_TEAM_ID_ENDPOINT = 'clash/v1/teams';
+export const GET_RANK_BY_SUMMONER_ID_ENDPOINT = 'league/v4/entries/by-summoner';
+export const GET_CHAMPION_MASTERIES_BY_SUMMONER_ID_ENDPOINT = 'champion-mastery/v4/champion-masteries/by-summoner';
+export const GET_MATCH_DATA_BY_MATCH_ID_ENDPOINT = 'match/v5/matches';
