@@ -8,11 +8,11 @@ Installation:
 
 Project Structure:
 
-src/controllers: Where the processing of an endpoint goes. "routes" calls functions here
-src/db: Db connection setup using sequelize
-src/library: Helpers, enums, etc
-src/middleware: Middleware stuff, only rate limiter for now
-src/models: Database table models
-src/routes: The api endpoint definitions
-src/services: Access to external services. So far only riot api
-src/utils: Any utilities used (logger, constants, etc)
+- src/controllers: Where the processing of an endpoint goes. "routes" calls functions here
+- src/db: Db connection setup using sequelize
+- src/library: Helpers, enums, etc
+- src/middleware: Middleware stuff, only rate limiter for now
+- src/models: Database table models
+- src/routes: The api endpoint definitions
+- src/services: Access to external services. So far only riot api
+- src/utils: Any utilities used (logger, constants, etc)
